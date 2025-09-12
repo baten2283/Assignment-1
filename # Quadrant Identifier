@@ -1,0 +1,14 @@
+x = int(input("Enter a Number "))
+y = int(input("Enter a number "))
+
+if x > 0:
+    if y > 0:
+        print('This is 1st Quadrant')
+    else:
+        print('This is 4th Quadrant')
+        
+else:
+    if y > 0:
+        print("This is 2nd Quadrant")
+    else:
+        print("This is 3rd Quadrant")
