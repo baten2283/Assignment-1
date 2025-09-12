@@ -1,12 +1,13 @@
 a = input('enter a number ')
-b = input('enter b number ')
-c = input('enter c number ')
+b = input('enter a number ')
+c = input('enter a number ')
+
 
 if a > b and a > c:
-    print('A is largest number')
+    print(a + ' is the largest number')
 
 elif b > a and b > c:
-    print('B is largest number')
+    print(b + ' is the largest number')
 
 else:
-    print('C is largest number')
+    print(c + ' is the largest number')
