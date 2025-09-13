@@ -1,0 +1,19 @@
+age = float(input("Enter you age "))
+
+if age >= 20:
+    print('You are an adult')
+
+elif age > 12 and age <= 19:
+    print('You are a teenager')
+
+elif age > 3 and age <= 12:
+    print('You are a child')
+
+elif age > 1 and age <= 3:
+    print('You are a toddler')
+
+elif age >= 0 and age <= 1:
+    print('You are an infant')
+
+else:
+    print('Invalid age input')
