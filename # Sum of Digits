@@ -1,0 +1,8 @@
+userN = int(input('Enter a number '))
+sumd = 0
+
+while userN > 0 :
+    lastDigit = userN % 10
+    sumd += lastDigit
+    userN //= 10
+print(sumd)
