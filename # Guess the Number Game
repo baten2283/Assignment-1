@@ -1,0 +1,14 @@
+ranNum = 6
+
+while True:
+    userGuess = int(input('Enter a number '))
+    
+    if userGuess == ranNum:
+        print('Correct')
+        break    
+
+    elif userGuess < ranNum:
+        print('Too low')  
+         
+    else:
+        print("Too high")
