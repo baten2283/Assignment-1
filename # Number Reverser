@@ -1,0 +1,8 @@
+num = int(input('Enter a number '))
+randomNum = 0
+
+while num > 0 :
+    lastDigit = num % 10
+    randomNum = randomNum * 10 + lastDigit
+    num //= 10
+print(randomNum)
